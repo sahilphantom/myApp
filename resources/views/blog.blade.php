@@ -1,6 +1,8 @@
 
 @extends('layouts.main')
 @section('content')
+        <h1 class="text-3xl text-center font-bold mb-4">Welcome to BlogSpace</h1>
+
 <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Blog Posts</h2>
 
 @if(count($posts) > 0)

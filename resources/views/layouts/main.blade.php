@@ -11,7 +11,6 @@
 <body>
     @include('components.header')
      <div class="container mx-auto px-4 py-6">
-        <h1 class="text-3xl text-center font-bold mb-4">Welcome to BlogSpace</h1>
         @yield('content')
     </div>
     @include('components.footer')
